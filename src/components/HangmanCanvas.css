@@ -1,0 +1,19 @@
+.hangmanCanvas {
+    outline: 0.08em solid black;
+    width: 20%;
+    margin: auto;
+    /*padding: 5px;*/
+}
+
+.drawing {
+    display: block;
+    margin: 0 auto;
+}
+
+.hangmanCanvas.active {
+    background-color: #78ecac;
+}
+
+.hangmanCanvas.gameOver {
+    background-color: #be7272;
+}

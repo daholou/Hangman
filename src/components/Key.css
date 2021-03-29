@@ -1,0 +1,47 @@
+.keyboard > .key {
+    font-size: 2em;
+    flex: 1 1 calc(100% / 6 - 0.4em);
+    outline: 0.08em solid black;
+    margin: 0.2em;
+    display: flex;
+    cursor: default;
+}
+
+.keyboard > .key.tried-ko {
+    /*outline-color: #298829;*/
+    background-color: #cccccc;
+    color: #666666;
+}
+
+.keyboard > .key.tried-ok {
+    /*outline-color: #298829;*/
+    background-color: #7aec6a;
+    color: #070101;
+}
+
+.keyboard > .key.not-tried {
+    /*outline-color: #e71e44;*/
+    background-color: #0099cc;
+    color: #ffffff;
+}
+
+/*.keyboard > .key > .symbol {*/
+/*    !*margin: auto;*!*/
+/*}*/
+
+.symbol {
+    /*border: 1px solid #0066cc;*/
+    /*background-color: #0099cc;*/
+    /*color: #ffffff;*/
+    padding: 5px 10px;
+    font-size: 30px;
+    margin: auto;
+}
+
+
+/*.symbol:disabled,*/
+/*.symbol[disabled]{*/
+/*    border: 1px solid #999999;*/
+/*    background-color: #cccccc;*/
+/*    color: #666666;*/
+/*}*/
